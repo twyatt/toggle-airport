@@ -19,3 +19,4 @@ The script and plist file originated from [Mac OS X Hints][origin].
 
 
 [origin]: http://hints.macworld.com/article.php?story=20100927161027611
+[toggle-airport.zip]: https://github.com/twyatt/toggle-airport/raw/master/toggle-airport.zip
