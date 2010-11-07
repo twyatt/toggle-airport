@@ -7,7 +7,10 @@ toggle-airport is a utility that auto-disables the Mac's airport when wired ethe
 Installation
 ------------
 
-Download [toggle-airport.zip][], extract, then from the Terminal:
+From the Terminal:
+	$ wget --no-check-certificate https://github.com/twyatt/toggle-airport/raw/master/toggle-airport.zip
+	$ unzip toggle-airport.zip
+	$ cd toggle-airport/
 	$ sudo make install
 
 
