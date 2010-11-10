@@ -1,25 +1,27 @@
 Description
 -----------
 
-toggle-airport is a utility that auto-disables the Mac's airport when wired ethernet is available.
+toggle-airport is a utility that auto-disables the Mac's AirPort when wired ethernet is available.
 
 
 Installation
 ------------
 
-From the Terminal:
-	$ wget --no-check-certificate https://github.com/twyatt/toggle-airport/raw/master/toggle-airport.zip
-	$ unzip toggle-airport.zip
-	$ cd toggle-airport/
-	$ sudo make install
+Download [Toggle AirPort.dmg][dmg] containing the pkg installer for use with the Max OS X installer.
+
+### Optional
+
+To enable [Growl][growl] notifications, the <code>growlnotify</code> utility is needed (and can be found in the <code>Extras</code> folder in the [Growl][growl] dmg.
 
 
 Author
 ------
 
-I did not write the script nor launch agent plist that makes this possible, I simply whipped up a quick Makefile to make the installation a bit simpler.
+I did not write the script nor launch agent plist that makes this possible, I simply whipped up a quick package to make the installation a bit simpler.
 The script and plist file originated from [Mac OS X Hints][origin].
 
 
 [origin]: http://hints.macworld.com/article.php?story=20100927161027611
-[toggle-airport.zip]: https://github.com/twyatt/toggle-airport/raw/master/toggle-airport.zip
+[zip]: https://github.com/twyatt/toggle-airport/raw/master/toggle-airport.zip
+[dmg]: https://github.com/twyatt/toggle-airport/raw/master/Toggle%20AirPort.dmg
+[growl]: http://growl.info/index.php
